@@ -9,5 +9,7 @@
     <Import_RootNamespace>YatesUtils</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)UtilitiesImpl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities.cs" />
   </ItemGroup>
 </Project>
