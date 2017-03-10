@@ -3,13 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "YatesUtils", "SharedProject1\YatesUtils.shproj", "{31538552-3679-40E8-B200-ACCF4BD5D262}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B29409BD-2002-48A8-93AE-F7689257E898}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilitiesUnitTests", "UtilitiesUnitTests\UtilitiesUnitTests.csproj", "{77230112-2236-43A4-84B7-08C72C25F30C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YatesUtilities", "YatesUtilities\YatesUtilities.csproj", "{509B2C57-7BAB-4202-B540-65E7BB79E611}"
+EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		SharedProject1\SharedProject1.projitems*{31538552-3679-40e8-b200-accf4bd5d262}*SharedItemsImports = 13
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77230112-2236-43A4-84B7-08C72C25F30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77230112-2236-43A4-84B7-08C72C25F30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77230112-2236-43A4-84B7-08C72C25F30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77230112-2236-43A4-84B7-08C72C25F30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509B2C57-7BAB-4202-B540-65E7BB79E611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509B2C57-7BAB-4202-B540-65E7BB79E611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509B2C57-7BAB-4202-B540-65E7BB79E611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509B2C57-7BAB-4202-B540-65E7BB79E611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

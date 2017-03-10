@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 public class UtilTests
 {
@@ -7,6 +8,12 @@ public class UtilTests
     private int failingTests = 0;
     private int totalTests = 2;
 
+    public static void Main()
+    {
+        UtilTests tester = new UtilTests();
+    }
+
+    [TestClass]
     public UtilTests()
 	{
 
@@ -41,6 +48,7 @@ public class UtilTests
         }
     }
 
+    [TestMethod]
     private void testEpochConversion ()
     {
         Utility utility = new UtilityImpl();
@@ -52,6 +60,7 @@ public class UtilTests
         }
     }
 
+    [TestMethod]
     private void testDateString ()
     {
         Utility utility = new UtilityImpl();
